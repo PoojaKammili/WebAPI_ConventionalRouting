@@ -1,0 +1,6 @@
+@Basic_WebAPI_ConventionalRouting_HostAddress = http://localhost:5033
+
+GET {{Basic_WebAPI_ConventionalRouting_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
