@@ -1,25 +1,24 @@
+Basic_WebAPI_ConventionalRouting
+
 📘 Description
+This is an ASP.NET Core Web API application demonstrating conventional routing and core Web API concepts.
+The application manages Employee data and performs CRUD operations using controller actions and a service layer.
 
-This project is a Basic ASP.NET Core Web API built to demonstrate conventional routing and core Web API concepts.
-It implements CRUD operations for Employee management using a clean, layered structure with services.
-
-This project is created for learning, interview preparation, and hands-on practice as part of a .NET backend development journey.
+This project is built for learning and interview preparation to strengthen .NET Web API fundamentals.
 
 🚀 Features
 
-ASP.NET Core Web API using Conventional Routing
+Create, Read, Update, and Delete Employees
 
-CRUD operations on Employee resource
+Uses ASP.NET Core Web API with Conventional Routing
 
-Controller-based API structure
+Controller and Service-based architecture
 
-Proper HTTP response handling (Ok, NotFound, CreatedAtAction, NoContent)
+Model Binding and request handling
 
-Separation of concerns using Service layer
+Proper HTTP responses (Ok, NotFound, CreatedAtAction, NoContent)
 
-Model binding and request validation
-
-Clean and readable code structure
+Clean project structure with Controllers, Models, and Services
 
 🧱 Tech Stack
 
@@ -29,6 +28,8 @@ Framework: ASP.NET Core Web API (.NET 8)
 
 Architecture: Controller + Service pattern
 
-IDE: Visual Studio
+API Type: RESTful Web API
 
-API Testing: Postman / Swagger (can be added)
+IDE: Visual Studio / VS Code
+
+API Testing: Postman
